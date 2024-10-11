@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(./img/Background.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: 100%;
+}
+.nav-section{
+    display: flex;
+}
+.logo{
+    margin-left: 75px;
+    width: 50%;
+    margin-top: 15px;
+}
+.logo h4{
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+}
+.navbar li{
+    margin-left: 10px;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia;
+}
+.welcome{
+    margin: 220px 40px;
+    color: #fff;
+    text-align: center;
+}
+.btn{
+    margin-top: 50px;
+    padding: 15px 28px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.welcome h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.about h3{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'Cambria';
+}
+.about h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    font-family: 'Cambria';
+    font-weight: 100;
+}
+.about-img{
+    display: flex;
+    justify-content: center;
+    grid-gap: 28px;
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+.card{
+    border: 3px solid lightgray;
+    width: 400px;
+    padding: 20px;
+    height: 550px;
+}
+.card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.card h4{
+    font-size: 20px;
+    font-family: 'Cambria';
+    margin-top: 10px;
+}
+.card p{
+    color: gray;
+    margin-top: 10px;
+}
+.card button{
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 10px 28px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.our-teacher{
+    background-color: rgb(240, 142, 127);
+    padding: 20px;
+    width: 100vw;
+    padding-bottom: 50px;
+}
+.info h4{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Cambria';
+    text-transform: uppercase;
+}
+.info p{
+    margin-top: 20px;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Cambria';
+}
+.img-teachers img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    float: left;
+    margin-left: 90px;
+}
+.img-teachers{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.img-teachers h4{
+    font-size: 20px;
+    text-transform: none;
+    margin: 100px 370px;
+}
+.img-teachers p{
+    margin: -90px 370px;
+    width: 100%;
+}
+.img-teachers1{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.img-teachers1 h4{
+    font-size: 20px;
+    text-transform: none;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.img-teachers1 p{
+    width: 100%;
+    margin-left: 80px;
+}
+.img-teachers1 img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    float: right;
+    margin-right: 100px;
+}
+.life-text h4{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'Cambria';
+}
+.life-text p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    font-family: 'Cambria';
+    font-weight: 100;
+}
+.card-img{
+    border: 3px solid lightgray;
+    width: 400px;
+    padding: 20px;
+    height: 550px;
+}
+.card-img img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.card-img h4{
+    font-size: 20px;
+    font-family: 'Cambria';
+    margin-top: 10px;
+}
+.card-img p{
+    color: gray;
+    margin-top: 10px;
+}
+.card-img button{
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 10px 28px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.student-img{
+    display: flex;
+    justify-content: center;
+    grid-gap: 28px;
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+.end{
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Cambria';
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: Georgia;
+    font-style: italic;
+    padding: 20px;
+}
